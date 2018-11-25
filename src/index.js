@@ -20,7 +20,7 @@ class App extends React.Component {
                     <option value="audi">Audi</option>
                 </select>
 
-                <select onChange={ (e) => console.log(e.target.value) }>
+                <select style={{"display": "inline"}} onChange={ (e) => console.log(e.target.value) }>
                     <option value="volvo">Volvo</option>
                     <option value="saab">Saab</option>
                     <option value="mercedes">Mercedes</option>
